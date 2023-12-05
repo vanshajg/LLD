@@ -10,8 +10,10 @@ import lombok.extern.slf4j.Slf4j;
 @Getter
 @RequiredArgsConstructor
 public class Vehicle {
-    private final DriverStrategy driveStrategy;
+
+    private final DriverStrategy driverStrategy;
     public void drive() {
-        driveStrategy.drive();
+        driverStrategy.drive();
     }
+
 }

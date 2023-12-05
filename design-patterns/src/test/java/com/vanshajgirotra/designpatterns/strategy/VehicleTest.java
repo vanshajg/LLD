@@ -15,13 +15,13 @@ public class VehicleTest {
         Vehicle fortuner = new Fortuner();
 
         // when, then
-        assertThat(fortuner.getDriveStrategy(), instanceOf(LightDriver.class));
+        assertThat(fortuner.getDriverStrategy(), instanceOf(LightDriver.class));
     }
 
     @Test
     void validateTruckDriversAreHeavy() {
         Vehicle truck = new Truck();
 
-        assertThat(truck.getDriveStrategy(), instanceOf(HeavyDriver.class));
+        assertThat(truck.getDriverStrategy(), instanceOf(HeavyDriver.class));
     }
 }
