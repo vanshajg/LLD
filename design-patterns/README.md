@@ -17,3 +17,4 @@ this pattern is used to create objects without exposing the creation logic to th
 
 ### Abstract Factory Design Pattern
 this pattern is used to create families of related objects without specifying their concrete classes.
+![use case](static/abstractFactory/use-case.png)
