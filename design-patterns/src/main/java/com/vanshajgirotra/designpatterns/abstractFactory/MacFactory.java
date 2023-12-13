@@ -1,6 +1,5 @@
 package com.vanshajgirotra.designpatterns.abstractFactory;
 
-import com.vanshajgirotra.designpatterns.abstractFactory.GuiFactory;
 import com.vanshajgirotra.designpatterns.abstractFactory.button.Button;
 import com.vanshajgirotra.designpatterns.abstractFactory.button.MacButton;
 import com.vanshajgirotra.designpatterns.abstractFactory.checkbox.Checkbox;
