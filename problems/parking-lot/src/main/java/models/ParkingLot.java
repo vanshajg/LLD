@@ -1,4 +1,4 @@
-package com.vanshajgirotra.problems.parking.lot.models;
+package models;
 
 import java.util.HashMap;
 import java.util.Map;

@@ -1,10 +1,11 @@
-package com.vanshajgirotra.problems.parking.lot.command.executor;
+package command.executor;
 
-import static com.vanshajgirotra.problems.parking.lot.utilities.IntegerValidator.isInteger;
 
-import com.vanshajgirotra.problems.parking.lot.models.Command;
-import com.vanshajgirotra.problems.parking.lot.models.parking.strategy.NaturalParkingStrategy;
-import com.vanshajgirotra.problems.parking.lot.services.ParkingLotService;
+import static utilities.IntegerValidator.isInteger;
+
+import models.Command;
+import models.parking.strategy.NaturalParkingStrategy;
+import services.ParkingLotService;
 
 public class CreateParkingLotCommandExecutor extends CommandExecutor {
 

@@ -1,4 +1,4 @@
-package com.vanshajgirotra.problems.parking.lot.models;
+package models;
 
 import static java.util.Objects.isNull;
 

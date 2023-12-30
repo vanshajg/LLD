@@ -1,4 +1,4 @@
-package com.vanshajgirotra.problems.parking.lot.models;
+package models;
 
 public record Car(String registrationNumber, String color) {
 }

@@ -1,4 +1,4 @@
-package com.vanshajgirotra.problems.parking.lot.utilities;
+package utilities;
 
 public class IntegerValidator {
     public static boolean isInteger(String string) {

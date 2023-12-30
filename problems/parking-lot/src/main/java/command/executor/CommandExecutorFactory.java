@@ -1,7 +1,7 @@
-package com.vanshajgirotra.problems.parking.lot.command.executor;
+package command.executor;
 
-import com.vanshajgirotra.problems.parking.lot.models.Command;
-import com.vanshajgirotra.problems.parking.lot.services.ParkingLotService;
+import models.Command;
+import services.ParkingLotService;
 
 public class CommandExecutorFactory {
 

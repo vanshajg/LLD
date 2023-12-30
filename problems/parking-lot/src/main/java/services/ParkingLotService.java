@@ -1,11 +1,12 @@
-package com.vanshajgirotra.problems.parking.lot.services;
+package services;
 
 import java.util.List;
 
-import com.vanshajgirotra.problems.parking.lot.models.Car;
-import com.vanshajgirotra.problems.parking.lot.models.ParkingLot;
-import com.vanshajgirotra.problems.parking.lot.models.Slot;
-import com.vanshajgirotra.problems.parking.lot.models.parking.strategy.ParkingStrategy;
+import models.Car;
+import models.ParkingLot;
+import models.Slot;
+import models.parking.strategy.ParkingStrategy;
+
 
 public class ParkingLotService {
     private ParkingLot parkingLot;

@@ -1,9 +1,10 @@
-package com.vanshajgirotra.problems.parking.lot.command.executor;
+package command.executor;
 
-import com.vanshajgirotra.problems.parking.lot.models.Car;
-import com.vanshajgirotra.problems.parking.lot.models.Command;
-import com.vanshajgirotra.problems.parking.lot.models.Slot;
-import com.vanshajgirotra.problems.parking.lot.services.ParkingLotService;
+
+import models.Car;
+import models.Command;
+import models.Slot;
+import services.ParkingLotService;
 
 public class ParkCommandExecutor extends CommandExecutor {
 

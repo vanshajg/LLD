@@ -1,4 +1,4 @@
-package com.vanshajgirotra.problems.parking.lot.models.parking.strategy;
+package models.parking.strategy;
 
 import java.util.TreeSet;
 

@@ -1,13 +1,12 @@
-package com.vanshajgirotra.problems.parking.lot;
-
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-import com.vanshajgirotra.problems.parking.lot.command.executor.CommandExecutor;
-import com.vanshajgirotra.problems.parking.lot.command.executor.CommandExecutorFactory;
-import com.vanshajgirotra.problems.parking.lot.models.Command;
-import com.vanshajgirotra.problems.parking.lot.services.ParkingLotService;
+import command.executor.CommandExecutor;
+import command.executor.CommandExecutorFactory;
+import models.Command;
+import services.ParkingLotService;
+
 
 public class ParkingLotApplication {
     public static void main(String[] args) throws IOException {

@@ -16,6 +16,7 @@
     <description>problems</description>
     <modules>
         <module>elevator</module>
+        <module>parking-lot</module>
     </modules>
 
     <properties>
