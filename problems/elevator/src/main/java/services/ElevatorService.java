@@ -23,6 +23,7 @@ public class ElevatorService {
             throw new RuntimeException("Invalid floor number: " + floor);
         }
         floors.add(floor);
+        move();
     }
 
     public void pressFloorButton(int floor) {
