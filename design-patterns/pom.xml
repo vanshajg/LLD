@@ -10,8 +10,12 @@
     </parent>
     <artifactId>design-patterns</artifactId>
     <version>0.0.1-SNAPSHOT</version>
+    <packaging>pom</packaging>
     <name>design-patterns</name>
     <description>design-patterns</description>
+    <modules>
+        <module>chain-of-responsibility</module>
+    </modules>
     <properties>
         <java.version>17</java.version>
     </properties>
