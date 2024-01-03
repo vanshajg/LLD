@@ -17,6 +17,7 @@
     <modules>
         <module>elevator</module>
         <module>parking-lot</module>
+        <module>snake-and-ladder</module>
     </modules>
 
     <properties>
