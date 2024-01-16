@@ -19,6 +19,7 @@
         <module>parking-lot</module>
         <module>snake-and-ladder</module>
         <module>car-rental</module>
+        <module>hashmap</module>
     </modules>
 
     <properties>
