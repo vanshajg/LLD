@@ -15,6 +15,7 @@
     <description>design-patterns</description>
     <modules>
         <module>chain-of-responsibility</module>
+        <module>proxy</module>
     </modules>
     <properties>
         <java.version>17</java.version>
