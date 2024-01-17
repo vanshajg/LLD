@@ -20,6 +20,7 @@
         <module>snake-and-ladder</module>
         <module>car-rental</module>
         <module>hashmap</module>
+        <module>book-my-show</module>
     </modules>
 
     <properties>
