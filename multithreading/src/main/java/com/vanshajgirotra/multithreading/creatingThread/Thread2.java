@@ -1,4 +1,4 @@
-package com.vanshajgirotra.multithreading;
+package com.vanshajgirotra.multithreading.creatingThread;
 
 public class Thread2 implements Runnable {
     @Override
