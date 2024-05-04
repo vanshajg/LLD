@@ -5,7 +5,7 @@ import java.util.Queue;
 
 public class BlockingQueue {
     private final Queue<Integer> queue;
-    private int capacity;
+    private final int capacity;
 
     public BlockingQueue(int capacity) {
         this.queue = new LinkedList<>();
