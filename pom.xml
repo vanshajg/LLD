@@ -12,6 +12,7 @@
         <module>design-patterns</module>
         <module>problems</module>
         <module>multithreading</module>
+        <module>core-java</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>

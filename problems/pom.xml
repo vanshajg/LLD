@@ -21,6 +21,9 @@
         <module>car-rental</module>
         <module>hashmap</module>
         <module>book-my-show</module>
+        <module>vending-machine</module>
+        <module>consistant-hashing</module>
+        <module>cache-strategies</module>
     </modules>
 
     <properties>

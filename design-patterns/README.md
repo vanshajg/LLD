@@ -5,7 +5,6 @@ this pattern is used to share implementations between child classes of base clas
 ![use case](static/strategy/use-case.png)
 https://refactoring.guru/design-patterns/strategy
 
-
 ### Observer Design Pattern
 this pattern is used to notify all observers when a change happens in the subject.
 
