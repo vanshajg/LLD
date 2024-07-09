@@ -20,6 +20,7 @@
         <module>factory</module>
         <module>abstract-factory</module>
         <module>null-object</module>
+        <module>builder</module>
     </modules>
     <properties>
         <java.version>17</java.version>
