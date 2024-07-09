@@ -10,9 +10,9 @@ public class Person {
     private final String name;
     private final int age;
 
-    private Person(PersonBuilder PersonBuilder) {
-        this.name = PersonBuilder.name;
-        this.age = PersonBuilder.age;
+    private Person(PersonBuilder builder) {
+        this.name = builder.name;
+        this.age = builder.age;
     }
 
     public static PersonBuilder builder() {
