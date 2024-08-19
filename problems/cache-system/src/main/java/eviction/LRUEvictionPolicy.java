@@ -20,7 +20,7 @@ public class LRUEvictionPolicy<Key> implements EvictionPolicy<Key> {
             linkedList.detach(hash.get(key));
             linkedList.addAtLast(hash.get(key));
         } else {
-            DoublyLinkedListElement<Key> newNode = new DoublyLinkedListElement<Key>(key);
+            DoublyLinkedListElement<Key> newNode = new DoublyLinkedListElement<>(key);
             hash.put(key, newNode);
             linkedList.addAtLast(newNode);
         }
