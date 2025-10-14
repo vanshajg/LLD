@@ -6,7 +6,7 @@
         <groupId>com.vanshajgirotra</groupId>
         <artifactId>lld-parent</artifactId>
         <version>1.0.0</version>
-        <relativePath/> <!-- lookup parent from repository -->
+        <relativePath>../pom.xml</relativePath>
     </parent>
     <artifactId>design-patterns</artifactId>
     <version>0.0.1-SNAPSHOT</version>
@@ -18,7 +18,6 @@
         <module>proxy</module>
         <module>strategy</module>
         <module>factory</module>
-        <module>abstract-factory</module>
         <module>null-object</module>
         <module>builder</module>
     </modules>

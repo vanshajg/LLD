@@ -6,7 +6,7 @@
         <groupId>com.vanshajgirotra</groupId>
         <artifactId>lld-parent</artifactId>
         <version>1.0.0</version>
-        <relativePath/> <!-- lookup parent from repository -->
+        <relativePath>../pom.xml</relativePath> <!-- lookup parent from repository -->
     </parent>
 
     <artifactId>problems</artifactId>
@@ -24,6 +24,7 @@
         <module>vending-machine</module>
         <module>consistant-hashing</module>
         <module>cache-strategies</module>
+        <module>cache-system</module>
     </modules>
 
     <properties>
